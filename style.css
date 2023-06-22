@@ -1,0 +1,81 @@
+section{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.phone_item{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  color: #1f1f1f;
+  text-decoration: none;
+  display: inline-block;
+  border: 3px solid #1f1f1f;
+  padding: 8px 16px;
+  border-radius: 21px;
+  transition: color .2s, background .2s, opacity .2s;
+}
+.phone_item--accent{
+  border-color: #ffa650;
+  color: #ffa650;
+}
+.phone_item:hover{
+  color: #fff;
+  background: #1f1f1f;
+}
+.phone_item--accent:hover{
+  background: #ffa650;
+  color: #1f1f1f;
+}
+.phone_item:active{
+  opacity: 0.8;
+}
+.contacts{
+  display: flex;
+}
+.phone{
+  width: 50%;
+}
+.icon{
+  width: 50%;
+}
+.socials{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.socials__item{
+  margin-right: 7px;
+}
+.socials__link{
+  display: inline-block;
+}
+.socials__icon{
+  fill: #1f1f1f;
+  width: 35px;
+  height: 35px;
+  transition: .2s;
+}
+.socials__icon--instagram:hover{
+  fill: #E6359C;
+}
+.socials__icon--facebook:hover{
+  fill: #3B5998;
+}
+.socials__icon--telegram:hover{
+  fill: #00BFFF;
+}
+p{
+  font-size: 22px;
+}
+.footer-page{
+  background: linear-gradient(to top, #2d2c2c, #1f1f1f);
+  padding: 25px 0;
+}
+.footer-text{
+  font-family: 'Monserat', sans-serif;
+  color: rgba(255, 255, 255, .3);
+  text-align: center;
+  font-weight: 900;
+  font-size: 18px;
+}
